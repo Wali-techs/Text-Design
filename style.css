@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #ffffff;
+}
+.hero{
+    height: 520px;
+    background-color:  #ffc914;
+  
+    overflow: hidden;
+}
+.shape{
+    position: absolute;
+    background-color: rgba(255, 174, 0, 0.25);
+    z-index: 0;
+}   
+.shape-one{
+    width: 330px;
+    height: 280px;
+   
+    left: 60px;
+    top: 70px;
+    border-radius: 50px;
+    transform:  rotate(25deg);
+
+}
+.shape-two {
+    width: 560px;
+    height: 250px;
+
+    right: 40px;
+    top: 20px;
+
+    border-radius: 50%;
+    transform: rotate(20deg);
+}
+.hero-content {
+    position: relative;
+   
+    text-align: center;
+    padding-top: 150px;
+    z-index: 2;
+
+}
+.hero-content h1{
+    display:inline-block;
+    color:  #00182e;
+    font-size: 42px;
+    display:inline-block;
+    line-height: 1.1;
+    font-weight: 700;
+    background:   rgba(255, 193, 7, 0.45);
+    padding: 3px 8px ;
+}
+.about{
+    background:  #ffffff;
+    padding: 55px 6% 80px;
+}
+.about-content{
+    max-width: 850px;
+    margin: auto;
+
+}
+.about-content h2 {
+     font-size: 22px;
+    color: #111111;
+
+    margin-bottom: 18px;
+}
+.about-content p{
+    font: 20px;
+    line-height: 1.55;
+
+}
+
+
+
+.Second-img{
+    max-width: 1280px;
+    width: 800px;
+    margin: 55px auto 0;
+    height: 400px;
+    overflow: hidden;
+}
+.Second-img img{
+     width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+
+    display: block;
+}
+.item-heading{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 35px;
+   font-size: 50px;
+}
+.team{
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    margin-left: 300px;
+    
+}
+.Person-image{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
